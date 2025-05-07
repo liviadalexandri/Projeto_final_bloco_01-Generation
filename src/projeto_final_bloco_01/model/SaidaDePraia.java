@@ -1,10 +1,10 @@
 package projeto_final_bloco_01.model;
 
-public class SaídaDePraia extends Produto{
+public class SaidaDePraia extends Produto{
 	
 	private String kimono;
 
-	public SaídaDePraia(int id, String nome, int tipo, float preco, String kimono) {
+	public SaidaDePraia(int id, String nome, int tipo, float preco, String kimono) {
 		super(id, nome, tipo, preco);
 		this.kimono = kimono;
 	}
