@@ -1,8 +1,12 @@
 package projeto_final_bloco_01;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
+import projeto_final_bloco_01.model.Biquini;
+import projeto_final_bloco_01.model.Produto;
+import projeto_final_bloco_01.model.SaídaDePraia;
 import projeto_final_bloco_01.util.Cores;
 
 public class Menu {
@@ -12,7 +16,21 @@ public class Menu {
 		        Scanner leia = new Scanner(System.in);
 				
 				int opcao;
-						
+				
+				
+				Biquini b1 = new Biquini(1, "Biquíni Fita", 1, 199.90f, "Biquíni Gabriela");
+				b1.visualizar();
+				
+				Biquini b2 = new Biquini(2, "Biquíni Decote", 1, 179.90f, "Biquíni Cíntia");
+				b2.visualizar();
+				
+				SaídaDePraia s1 = new SaídaDePraia(3, "Kimono Longo", 2, 99.00f, "Kimono Longo Estampado");
+				s1.visualizar();
+				
+				SaídaDePraia s2 = new SaídaDePraia(4, "Kimono Curto", 2, 110.00f, "Kimono Curto liso");
+				s2.visualizar();
+				
+				
 				while(true) {
 
 					System.out.println(Cores.ANSI_CYAN_BACKGROUND + "꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦");
